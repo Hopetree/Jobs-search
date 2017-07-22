@@ -23,4 +23,5 @@
 </br>请求一次获取总页码数>>提取并保存数据到Excel>>按照总页码数循环翻页
 - 其他
 </br>请求头headers需要附带cookie参数，可以自己构建一个cookie函数自动生成
+</br>Excel操作可以参考https://github.com/Hopetree/mytests/tree/master/excel-module
 
