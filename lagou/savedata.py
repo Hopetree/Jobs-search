@@ -2,6 +2,8 @@
 # date:2017-7-11
 # anthor:Alex
 
+'''字体和背景色代号可见测试文件https://github.com/Hopetree/mytests/tree/master/excel-module'''
+
 import xlwt
 import datetime
 
@@ -22,14 +24,13 @@ class myexcel(object):
         # 设置字体
         font = xlwt.Font()
         # font.name = "Arial"    #字体名称
-        font.colour_index = 23  # 颜色
+        font.colour_index = 1  # 颜色为白色
         font.bold = True  # 字体加粗
         font.height = 20 * 11  # 字体决定了行高，后面一个数字可以决定字体型号
         # 设置背景色
         patterni = xlwt.Pattern()
         patterni.pattern = xlwt.Pattern.SOLID_PATTERN
-        patterni.pattern_fore_colour = 7
-        # 设置单元格背景颜色 0 = Black, 1 = White, 2 = Red, 3 = Green, 4 = Blue, 5 = Yellow, 6 = Magenta
+        patterni.pattern_fore_colour = 24  #一种类似天蓝色
 
         # 设置风格
         style = xlwt.XFStyle()
