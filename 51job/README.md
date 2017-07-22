@@ -8,8 +8,7 @@
     - citynum.py
     </br>本项目中主要负责生成城市代号，因为51job的URL中城市是用自己网站划分的城市代号表示的
 - Python库支持
-</br>
-`requests`
+</br>`requests`
  `Beautifulsoup`
 `re`
 `urllib.parse`
