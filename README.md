@@ -34,8 +34,11 @@
 `datetime`
 
 - [**scrapy-51job**](https://github.com/Hopetree/Jobs-search/tree/master/scrapy-51job)
-</br>项目内容：前程无忧scrapy版爬虫
+</br>项目内容：前程无忧scrapy版爬虫，及一些数据分析
 </br>创建时间：2017-7-18
 </br>主要模块：
 `scrapy`
 `pymongo`
+`pandas`
+`jieba`
+`wordcloud`
