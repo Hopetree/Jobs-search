@@ -68,5 +68,5 @@ if __name__ == '__main__':
     infos = get_infos()
     word_dic = dict(get_word(infos,'eng',150))
 
-    get_wc(word_dic,r'docs\times.ttf','wordcloud.png',r'docs\github.jpg')
+    get_wc(word_dic,r'docs\times.ttf','wordcloud_aixin.png',r'docs\aixin.jpg')
 
