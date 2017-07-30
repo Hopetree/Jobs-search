@@ -37,3 +37,12 @@ class city_to_num(object):
 if __name__ == '__main__':
     k = city_to_num.get_citynum(["武汉","深圳"])
     print(k)
+    p = city_to_num()
+    l = ["北京","上海","广州","深圳","武汉","西安","南京","成都","重庆","东莞","大连","昆明",
+         "长沙","合肥","宁波","郑州","济南","哈尔滨","长春","福州","天津","沈阳","杭州","苏州",
+         "无锡","石家庄","惠州"]
+    t = list(set(l))
+    CITY_DICT = {}
+    for i in t:
+        CITY_DICT[i] = p.area[i]
+    print(CITY_DICT)
