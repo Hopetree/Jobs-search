@@ -42,3 +42,5 @@
 `pandas`
 `jieba`
 `wordcloud`
+</br>词云图示例：
+![词云图](https://github.com/Hopetree/Jobs-search/blob/master/scrapy-51job/wordcloud_aixin.png)
